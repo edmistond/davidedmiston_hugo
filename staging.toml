@@ -1,4 +1,4 @@
-baseURL = "https://www.davidedmiston.com/"
+baseURL = "http://staging.davidedmiston.com/"
 languageCode = "en-us"
 theme = "cayman-hugo-theme"
 title = "Globally Scoped"
