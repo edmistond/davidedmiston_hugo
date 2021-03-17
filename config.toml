@@ -1,6 +1,6 @@
 baseURL = "https://www.davidedmiston.com/"
 languageCode = "en-us"
-theme = "cayman-hugo-theme"
+theme = "base16"
 title = "Globally Scoped"
 
 pygmentsCodefences = true
@@ -9,49 +9,12 @@ pygmentsStyle = "pygments"
 [permalinks]
   post = "/:filename/"
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    style = "dracula"
+
 [params]
   project_name = "Globally Scoped"
   project_tagline = "A Technology Blog"
   dateFormat = "2006-01-02"
-
-  footer = "&copy; 2021 David A. Edmiston - Built with [Hugo](https://gohugo.io/), themed with [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme)."
-
-[menu]
-  [[menu.nav]]
-    name = "Blog"
-    url = "/"
-    weight = 1
-  [[menu.nav]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
-  [[menu.nav]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-  [[menu.nav]]
-    name = "RSS"
-    url = "/index.xml"
-    weight = 4
-
-# [params]
-#   # highlightjs = true
-#   themeColor = "theme-base-0e"
-#   layoutReverse = true
-
-# [params.social]
-#   twitter = "edmistond"
-#   github = "edmistond"
-#   gravatar = "edmistond@gmail.com"
-
-# [markup]
-#   [markup.highlight]
-#     codeFences = true
-#     guessSyntax = false
-#     hl_Lines = ""
-#     lineNoStart = 1
-#     lineNos = false
-#     lineNumbersInTable = true
-#     noClasses = true
-#     style = "autumn"
-#     tabWidth = 2
