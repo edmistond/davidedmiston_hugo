@@ -1,7 +1,6 @@
 ---
 title: "On Apple's M1 Macs"
 date: 2021-03-16
-draft: true
 ---
 
 Compared to the first-day adopters, I'm a bit late to the party here... but as of the end of February I've joined the ranks of ARM MacBook users. After two weeks or so of sustained usage, I'm impressed.
