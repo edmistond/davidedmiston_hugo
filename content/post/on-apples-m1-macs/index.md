@@ -20,7 +20,7 @@ In no particular order, some impressions and comments on the machine after two w
 * Docker tech preview installs fine. I haven't had an opportunity to test it yet.
 * Azul Zulu JDK 15 installs fine and is native.
 * Homebrew is fine. I only installed the ARM version and so far that hasn't been a hassle.
-* Chrome's live captions feature doesn't work on ARM Macs, which is annoying, but since it's still hidden behind an experimental flag I suppose I'll give them a pass for now. I really wish that Apple would do some kind of live captions across iOS/iPadOS/macOS and save me the hassles.
+* ~~Chrome's live captions feature doesn't work on ARM Macs, which is annoying, but since it's still hidden behind an experimental flag I suppose I'll give them a pass for now.~~ I really wish that Apple would do some kind of live captions across iOS/iPadOS/macOS and save me the hassles. **Update 03-17-2021**: I checked again today, Chrome Live Captions work now and are officially going live.[^2]
 * Haven't really tried running iOS apps for the most part, with one exception related to the above: I can run [Otter.ai](https://otter.ai)'s iOS app to pull an audio stream from the microphone and auto-caption it. I can then use [Loopback](https://www.rogueamoeba.com/loopback/) to create a pass-through device, set it as my output device, and let Otter think _that_ is the microphone. In this way, I can get captions for video calls or videos that don't offer them. Again, I really wish Apple would just build this in.
 * The webcam is still only 720p, but the software tweaks they've made noticeably improved it.
 * Downgrading from a 15 to 13" screen has made one thing very clear: it's time for a new glasses prescription, and/or bigger fonts. _sigh_
@@ -28,3 +28,5 @@ In no particular order, some impressions and comments on the machine after two w
 Overall, I'm favorably impressed with what they've done here. The performance is terrific - it stacks up favorably against (or outperforms) relatively high-end Intel Macs and yet it's the _slowest_ ARM Mac they're ever going to release. I'll be very interested to see what they bring out in future hardware updates.
 
 [^1]: That's an entire story on its own, I guess. It was fine, but... felt weird? Being inside an actual building with more than one or two other people felt very strange to me. COVID's entirely scrambled my brain.
+
+[^2]: See [XDA Developers](https://www.xda-developers.com/google-chrome-live-caption-feature-rolls-out-transcribe-speech-videos/) for more information on that one.
