@@ -38,13 +38,19 @@
 
 /* General Page Layout */
 
+@font-face {
+  font-family: 'PT Sans';
+  src: url('static/fonts/PTSans-Regular.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   background-color: var(--base00);
   color: var(--base07);
   line-height: 1.5;
   font-size: 100%;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'PT Sans';
+  font-style: normal;
 }
 
 .container {
@@ -133,16 +139,16 @@ p {
   margin-bottom: 1rem;
 }
 
-h1 { font-size: 2rem }
-h2 { font-size: 1.5rem }
-h3 { font-size: 1.25rem }
-h4 { font-size: 1rem }
-h5 { font-size: .875rem }
-h6 { font-size: .75rem }
+h1 { font-size: 2.5rem }
+h2 { font-size: 2rem }
+h3 { font-size: 1.75rem }
+h4 { font-size: 1.25rem }
+h5 { font-size: 1rem }
+h6 { font-size: .85rem }
 
 pre, code {
-  font-family: inherit;
-  font-size: inherit;
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+  font-size: 1rem;
 }
 
 /* Header Layout */
@@ -252,9 +258,9 @@ footer a {
 }
 
 .article-list article {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  margin-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .article-list article h2.headline,
@@ -274,6 +280,10 @@ footer a {
 .article-list article .meta .val,
 .article-list article .meta .val a {
   color: var(--base0e);
+}
+
+.article-list article section.summary {
+  font-size: 125%;
 }
 
 .article-list article section.summary a { color: var(--base0f); }
@@ -340,6 +350,7 @@ article.single h1.headline {
 article.single section.body {
   padding-top: 4rem;
   padding-bottom: 3rem;
+  font-size: 125%;
 }
 
 @media (max-width: 52em) {
@@ -390,6 +401,8 @@ article.single figure, article.single div.highlight {
   margin-bottom: 1rem;
   padding: 1em;
   background-color: var(--base01);
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+  font-size: 1rem;
 }
 
 @media (max-width: 52em) {
@@ -398,6 +411,8 @@ article.single figure, article.single div.highlight {
     margin-left: 0;
     margin-right: 0;
     border-radius: 3px;
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+    font-size: 1rem;
   }
 }
 
