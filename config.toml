@@ -6,9 +6,6 @@ title = "Globally Scoped"
 pygmentsCodefences = true
 pygmentsStyle = "pygments"
 
-# [permalinks]
-#   post = "/:filename/"
-
 [permalinks]
   post = "post/:year/:month/:slug"
 

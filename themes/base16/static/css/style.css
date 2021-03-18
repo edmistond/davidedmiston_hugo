@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: 'PT Sans';
-  src: url('static/fonts/PTSans-Regular.ttf') format('truetype');
+  src: url('/fonts/PTSans-Regular.ttf') format('truetype');
 }
 
 body {

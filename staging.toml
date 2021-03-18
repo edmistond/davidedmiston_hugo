@@ -7,7 +7,7 @@ pygmentsCodefences = true
 pygmentsStyle = "pygments"
 
 [permalinks]
-  post = "/:filename/"
+  post = "post/:year/:month/:slug"
 
 [markup]
   [markup.highlight]
@@ -18,3 +18,4 @@ pygmentsStyle = "pygments"
   project_name = "Globally Scoped"
   project_tagline = "A Technology Blog"
   dateFormat = "2006-01-02"
+  paginate = 10
