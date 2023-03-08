@@ -2,7 +2,6 @@
 title: "Maui Setup"
 date: 2023-03-07T21:25:30-05:00
 tags: [dotnet, maui]
-draft: true
 ---
 
 As noted in my [housekeeping post](/post/2023/03/housekeeping-notes/), I'm wanting to play with dotnet MAUI; a more desktop focused approach to coding would be an interesting paradigm shift, and I have ideas cooking for apps I'd like to build. However, MAUI is still new and in flux, and the process of getting an app to initially run and compile proved immensely frustrating, and I ran into the same issues on both my Windows desktop and my Mac over a few days of messing with it.
