@@ -4,6 +4,7 @@ date: 2023-10-09
 ---
 
 So, you've found yourself attending or speaking at a conference that's not able to provide better accessibility tools. How do you navigate this?
+
 ### But first, a disclaimer...
 
 I can't write or talk extensively about automatic captioning tools without taking a moment to note that they're controversial. Many in the Deaf community regard them as "craptions," don't think they provide good accessibility, and prefer actual [human captioners](https://whitecoatcaptioning.com/) instead. Others don't like captions at all, and prefer to have sign language interpreters available. Still others use automatic captioning extensively, find it adequate to their needs, and for whatever reason, prefer to use it.
