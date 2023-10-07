@@ -15,7 +15,7 @@ jobs:
       - name: Build Hugo site (staging)
         uses: jakejarvis/hugo-build-action@master
         with:
-          args: --baseURL http://staging.davidedmiston.com/ --minify
+          args: --baseURL http://staging.davidedmiston.com/ --minify --buildFuture
       - name: Deploy to staging
         uses: up9cloud/action-rsync@master
         env:
