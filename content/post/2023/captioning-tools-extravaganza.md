@@ -1,15 +1,18 @@
 ---
 title: "Captioning Tools Extravaganza!"
 date: 2023-10-09
+tags: [captions, ml]
 ---
 
-So, you've found yourself attending or speaking at a conference that's not able to provide better accessibility tools. How do you navigate this?
+In this post, I'm going to cover a wide range of automatic captioning tools based on my personal experiences with them. This is not a comprehensive list, I know there's more of them out there. For context, I'm deaf, and I'm not fluent in American Sign Language (ASL). Since 2018 when they started to become available, I've relied heavily on automatic captioning tools in my work and personal lives.
+
+By sharing my experiences in this post, I hope to help individuals, employers, conference organizers, live streamers, speakers, and anyone else interested get a better understanding of what tools are available and how well they work. I also want to share this information with any of my Deaf/HoH peers who are researching these tools as well.
 
 ### But first, a disclaimer...
 
 I can't write or talk extensively about automatic captioning tools without taking a moment to note that they're controversial. Many in the Deaf community regard them as "craptions," don't think they provide good accessibility, and prefer actual [human captioners](https://whitecoatcaptioning.com/) instead. Others don't like captions at all, and prefer to have sign language interpreters available. Still others use automatic captioning extensively, find it adequate to their needs, and for whatever reason, prefer to use it.
 
-Personally, I fall into this latter camp; I'm not fluent in American Sign Language (ASL), and I've used automatic captioning extensively since late 2018. In the beginning, it was rather rough and inaccurate, but in the intervening years they've improved rather dramatically. I love and respect the human captioners that I've worked with, but having captions be instantly available any time of day or night was a game-changer for me, and I've progressed more in my career in the last five years than I did in the previous 15, solely due to being able to fully participate.
+Personally, I fall into this latter camp; I'm not fluent in American Sign Language (ASL), and I've used automatic captioning extensively since late 2018. In the beginning, they were rough and inaccurate, but in the intervening years they've improved rather dramatically. I love and respect the human captioners that I've worked with, but having captions be instantly available any time of day or night was a game-changer for me, and I've progressed more in my career in the last five years than I did in the previous 15, solely due to being able to fully participate.
 
 Worth noting: the biggest advantage of human captioners is they tend to be more accurate. If they've worked extensively with clients in the tech industry, they're likely to be familiar with the technical vocabulary you're using. They also tend to handle accents much better than automatic tools do.
 
@@ -74,19 +77,21 @@ If you want to use it on the Mac, the build process isn't onerous but is somewha
 
 ### As a Conference, we want to offer captions, so everyone is welcome
 
-Depending on your AV setup and how you are streaming data, you have a few options. You can of course hire an [awesome human captioning firm](https://whitecoatcaptioning.com/) to do this, but maybe you don't have that in your budget.
+Depending on your AV setup and how you are streaming data, you have options. You can of course hire an [awesome human captioning firm](https://whitecoatcaptioning.com/) to do this, but it's possible you don't have that in your budget.
 
 Probably the easiest approach in that case, depending on the conference AV setup, would be using Windows live captioning or the Linux/macOS Live Captions tools linked above. Another option might be to get in touch with Ava.me; [they've offered accessibility for conferences in the past](https://help.ava.me/en/articles/3160170-use-ava-at-conferences-venues-events-participant-info).
 
+If you do pursue a live-captioning solution for accessibility, you may want to remind your presenters to speak clearly and avoid any cross-talk. I would also encourage them to rehearse the talk using a captioning tool so they know what to expect from it.
+
 ### As an Attendee, I want captions, so I know what the heck is going on
 
-As a general rule, _all of the above_ options work great for attendees. If it's a virtual conference, you can use the built-in auto-captioning that many platforms now offer, or turn on one of the previously recommended tools. There are one or two others you can use, and then if you're in-person, we'll talk about actually getting sound _into_ your phone, laptop, or tablet in the first place.
+As a general rule, _all of the above_ options work great for attendees, too. If it's a virtual conference, you can use the built-in auto-captioning your platform offers (if any), or turn on one of the recommended tools. There's one or two others you can use, which I'm going to discuss in these next paragraphs. After that, I'll discuss ways to get an audio stream into your device if you're attending an in-person conference.
 
 #### [Otter.ai](https://otter.ai)
 
 - **Free/paid, Android/iOS/iPadOS/web, cloud-based**
 
-I used Otter extensively from 2019-2021, prior to Teams captioning improving and prior to Windows/Mac having live captioning options. I generally had very good luck with it, and ran a 3.5mm splitter off my laptop; this let me feed the audio into my iPad and use the app there, which was convenient for having my captions positioned right underneath the screen I was working on. Otter does require internet access and also saves the audio recording until you delete it; please be aware of any potential legal issues in the jurisdiction you're in if you use this. Additionally, Otter's license terms don't seem allow "public performance" so if anyone is thinking about using this from a conference or attendee standpoint... I don't think that's allowed.
+I used Otter extensively from 2019-2021, before Teams captioning improved and before Windows/Mac having live captioning options. I generally had good luck with it, and ran a 3.5mm splitter off my laptop; this let me feed the audio into my iPad and use the app there, which was convenient for having my captions positioned right underneath the screen I was working on. Otter does require internet access and also saves the audio recording until you delete it; please be aware of any potential legal issues in the jurisdiction you're in if you use this. Also, Otter's license terms don't seem allow "public performance," so technically I don't think you're allowed to display it to a larger group of people, only to yourself.
 
 #### [Ava.me](https://ava.me)
 
@@ -102,9 +107,9 @@ I'm not an Android user and don't regularly use this, but I have friends/family 
 
 #### [Live Transcribe](https://apps.apple.com/app/id1471473738) (NOT the Google one 🙂)
 
-- **Paid (monthly subscription + additional hours IAP), iOS/iPadOS, cloud-based**
+- **Paid (monthly subscription, more hours through in-app purchase), iOS/iPadOS, cloud-based**
 
-I'm an iPhone user and this is my go-to app for the iPhone and iPad. Very accurate when using the "premium" captions (rather than basic on-device which is just the built-in iOS STT). $5 a month subscription gives you five hours of premium captions, additional 1 or 5 hour blocks are available as in-app purchases for $1 an hour as of this writing. All around great and life-changing for me.
+I'm an iPhone user and this is my go-to app for the iPhone and iPad. Good accuracy when using the "premium" captions (rather than basic on-device which is the built-in iOS STT). $5 a month subscription gives you five hours of premium captions. You can get more time in 1 or 5 hour blocks through in-app purchases; it's $1 an hour as of this writing. All around a great app and life-changing for me.
 
 #### [CAPTION.Ninja](https://caption.ninja/) in Google Chrome
 
@@ -126,7 +131,7 @@ This was the tool I used at the most recent Stir Trek I attended - I had let the
 
 ### Wrapping Up
 
-This blog post has been brewing for quite a while; I don't think anyone has written up a comprehensive overview of captioning solutions. I've been involved with the CNCF Deaf/HOH Working Group and that's inspired me to finally get around to writing this; I hope that readers have found it useful. It's absolutely not ideal that we often end up doing the work for our own accessibility, but even so - it's useful to have some solutions you can recommend, and hopefully it's a good resource for conferences as well.
+This blog post has been brewing in my head for at least two years; I don't think anyone has written up a comprehensive overview of captioning solutions. I'm involved with the CNCF Deaf/HOH Working Group and that's inspired me to finally write this; I hope that readers have found it useful. It's not ideal that we often end up doing the work for our own accessibility, but even so - it's useful to have some solutions you can recommend, and hopefully it's a good resource for conferences as well.
 
 If you have any questions or feel I've missed an important option, please feel free to hit me up on Mastodon, email me (it's my last name and first initial, no punctuation, @ Google's mailing service :)), open an issue (on the blog's git repository)[https://github.com/edmistond/davidedmiston_hugo], or find me on the CNCF Slack in #deaf-and-hard-of-hearing.
 
@@ -134,4 +139,4 @@ If you have any questions or feel I've missed an important option, please feel f
 I'd like to thank the following folks for reviewing this before publication: Catherine Paganini, AmyJune Hineline, Rob Koch, Leon Adato.
 
 **AI Disclaimer:**
-None of the text in this post was written by AI tools. I do sometimes use them for rubber-ducking and a sounding board, and [claude.ai](https://claude.ai/) did suggest a few points to consider elaborating on when I ran a late draft of this post through it.
+I didn't use AI tools to write any of the text in this post. I sometimes use them for rubber-ducking and a sounding board, and [claude.ai](https://claude.ai/) did suggest some points to consider elaborating on when I ran a late draft of this post through it.
