@@ -1,0 +1,30 @@
+name: Build Hugo Site
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy-staging:
+    runs-on: ubuntu-latest
+    environment: staging
+
+    steps:
+      - name: Checkout master branch
+        uses: actions/checkout@v2
+      - name: Build Hugo site (staging)
+        uses: jakejarvis/hugo-build-action@master
+        with:
+          args: --baseURL http://staging.davidedmiston.com/ --minify --buildFuture
+      - name: Deploy to staging
+        uses: up9cloud/action-rsync@master
+        env:
+          HOST: davidedmiston.com
+          KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          SOURCE: public/
+          TARGET: staging.davidedmiston.com/
+          ARGS: -avz --delete
+          VERBOSE: true
+          PRE_SCRIPT: |
+            cp robots_staging.txt public/robots.txt
+          POST_SCRIPT: "echo done at: && date -u"
