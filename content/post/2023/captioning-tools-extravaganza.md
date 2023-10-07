@@ -121,7 +121,7 @@ This blog post has been brewing for quite a while; I don't think anyone has writ
 If you have any questions or feel I've missed an important option, please feel free to hit me up on Mastodon, email me (it's my last name and first initial, no punctuation, @ Google's mailing service :)), or find me on the CNCF Slack in #deaf-and-hard-of-hearing.
 
 **Special Thanks**
-I'd like to thank the following folks for reviewing this before publication: Catherine Paganini, AmyJune Hineline, Rob Koch
+I'd like to thank the following folks for reviewing this before publication: Catherine Paganini, AmyJune Hineline, Rob Koch, Leon Adato
 
 **AI Disclaimer:**
 None of the text in this post was written by AI tools. I do sometimes use them for rubber-ducking and a sounding board, and [claude.ai](https://claude.ai/) did suggest a few points to consider elaborating on when I ran a late draft of this post through it.
