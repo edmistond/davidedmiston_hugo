@@ -1,5 +1,6 @@
 name: Build Hugo Site
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -26,6 +27,7 @@ jobs:
           TARGET: staging.davidedmiston.com/
           ARGS: -avz --delete
           VERBOSE: true
+          MODE: push
           RUN_SCRIPT_ON: source
           PRE_SCRIPT: |
             cp robots_staging.txt public/robots.txt
