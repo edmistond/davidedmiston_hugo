@@ -20,11 +20,13 @@ jobs:
         uses: up9cloud/action-rsync@master
         env:
           HOST: davidedmiston.com
+          USER: edmistond
           KEY: ${{ secrets.DEPLOY_SSH_KEY }}
           SOURCE: public/
           TARGET: staging.davidedmiston.com/
           ARGS: -avz --delete
           VERBOSE: true
+          RUN_SCRIPT_ON: source
           PRE_SCRIPT: |
             cp robots_staging.txt public/robots.txt
           POST_SCRIPT: "echo done at: && date -u"
