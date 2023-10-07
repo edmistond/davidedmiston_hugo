@@ -32,3 +32,28 @@ jobs:
           PRE_SCRIPT: |
             cp robots_staging.txt public/robots.txt
           POST_SCRIPT: "echo done at: && date -u"
+
+  build-deploy-production:
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Checkout master branch
+        uses: actions/checkout@v2
+      - name: Build Hugo site (production)
+        uses: jakejarvis/hugo-build-action@master
+        with:
+          args: --baseURL https://www.davidedmiston.com/ --minify
+      - name: Deploy to production
+        uses: up9cloud/action-rsync@master
+        env:
+          HOST: davidedmiston.com
+          USER: edmistond
+          KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          SOURCE: public/
+          TARGET: davidedmiston.com/
+          ARGS: -avz --delete
+          VERBOSE: true
+          MODE: push
+          RUN_SCRIPT_ON: source
+          POST_SCRIPT: "echo done at: && date -u"
