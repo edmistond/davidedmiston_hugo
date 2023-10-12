@@ -4,7 +4,7 @@ date: 2023-10-12
 tags: [captions, ml]
 ---
 
-In this post, I'm going to cover a wide range of automatic captioning tools based on my personal experiences with them. This is not a comprehensive list - there are far more tools than a single person can test. For context, I'm deaf, and I'm not fluent in American Sign Language (ASL), so captioning is critical in both my personal life and professional career. Since 2018 when they started to become available, I've relied heavily on automatic captioning tools in my work and personal lives.
+In this post, I'm going to cover a wide range of automatic captioning tools based on my personal experiences with them. This is not a comprehensive list - there are far more tools than a single person can test. For context, I'm deaf, and I'm not fluent in American Sign Language (ASL), so captioning is critical in both my personal life and professional career. Since 2018 when they started to become available, I've relied heavily on automatic captioning tools in both aspects of my life.
 
 By sharing my experiences in this post, I hope to help individuals, employers, conference organizers, live streamers, speakers, and anyone else interested get a better understanding of what tools are available and how well they work. I also want to share this information with any of my Deaf and hard of hearing peers who are researching these tools as well.
 
