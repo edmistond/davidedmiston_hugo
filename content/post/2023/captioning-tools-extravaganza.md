@@ -133,7 +133,7 @@ This was the tool I used at the most recent Stir Trek I attended - I had let the
 
 This blog post has been brewing in my head for at least two years; I don't think anyone has written up a comprehensive overview of captioning solutions. I'm involved with the CNCF Deaf/HOH Working Group and that's inspired me to finally write this; I hope that readers have found it useful. It's not ideal that we often end up doing the work for our own accessibility, but even so - it's useful to have some solutions you can recommend, and hopefully it's a good resource for conferences as well.
 
-If you have any questions or feel I've missed an important option, please feel free to hit me up on Mastodon, email me (it's my last name and first initial, no punctuation, @ Google's mailing service :)), open an issue (on the blog's git repository)[https://github.com/edmistond/davidedmiston_hugo], or find me on the CNCF Slack in #deaf-and-hard-of-hearing.
+If you have any questions or feel I've missed an important option, please feel free to hit me up on Mastodon, email me (it's my last name and first initial, no punctuation, @ Google's mailing service :)), open an issue [on the blog's git repository](https://github.com/edmistond/davidedmiston_hugo), or find me on the CNCF Slack in #deaf-and-hard-of-hearing.
 
 **Special Thanks**
 I'd like to thank the following folks for reviewing this before publication: Catherine Paganini, AmyJune Hineline, and Rob Koch.
