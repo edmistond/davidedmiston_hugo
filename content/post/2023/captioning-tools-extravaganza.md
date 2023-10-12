@@ -1,12 +1,12 @@
 ---
 title: "Captioning Tools Extravaganza!"
-date: 2023-10-09
+date: 2023-10-12
 tags: [captions, ml]
 ---
 
-In this post, I'm going to cover a wide range of automatic captioning tools based on my personal experiences with them. This is not a comprehensive list, I know there's more of them out there. For context, I'm deaf, and I'm not fluent in American Sign Language (ASL). Since 2018 when they started to become available, I've relied heavily on automatic captioning tools in my work and personal lives.
+In this post, I'm going to cover a wide range of automatic captioning tools based on my personal experiences with them. This is not a comprehensive list - there are far more tools than a single person can test. For context, I'm deaf, and I'm not fluent in American Sign Language (ASL), so captioning is critical in both my personal life and professional career. Since 2018 when they started to become available, I've relied heavily on automatic captioning tools in my work and personal lives.
 
-By sharing my experiences in this post, I hope to help individuals, employers, conference organizers, live streamers, speakers, and anyone else interested get a better understanding of what tools are available and how well they work. I also want to share this information with any of my Deaf/HoH peers who are researching these tools as well.
+By sharing my experiences in this post, I hope to help individuals, employers, conference organizers, live streamers, speakers, and anyone else interested get a better understanding of what tools are available and how well they work. I also want to share this information with any of my Deaf and hard of hearing peers who are researching these tools as well.
 
 ### But first, a disclaimer...
 
@@ -136,7 +136,7 @@ This blog post has been brewing in my head for at least two years; I don't think
 If you have any questions or feel I've missed an important option, please feel free to hit me up on Mastodon, email me (it's my last name and first initial, no punctuation, @ Google's mailing service :)), open an issue (on the blog's git repository)[https://github.com/edmistond/davidedmiston_hugo], or find me on the CNCF Slack in #deaf-and-hard-of-hearing.
 
 **Special Thanks**
-I'd like to thank the following folks for reviewing this before publication: Catherine Paganini, AmyJune Hineline, Rob Koch, Leon Adato.
+I'd like to thank the following folks for reviewing this before publication: Catherine Paganini, AmyJune Hineline, and Rob Koch.
 
 **AI Disclaimer:**
 I didn't use AI tools to write any of the text in this post. I sometimes use them for rubber-ducking and a sounding board, and [claude.ai](https://claude.ai/) did suggest some points to consider elaborating on when I ran a late draft of this post through it.
