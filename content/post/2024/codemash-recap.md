@@ -2,7 +2,6 @@
 title: "CodeMash Recap"
 date: 2024-01-13T23:32:11-05:00
 tags: [tech, conferences, codemash]
-draft: true
 ---
 
 Last week I made my return to [CodeMash](https://codemash.org) for the first time in twelve years. I had a great time - two days of great talks and chats with friends (and coworkers!) old and new. I do not plan to wait over a decade to attend again. 😉
