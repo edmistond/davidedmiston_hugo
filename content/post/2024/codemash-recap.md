@@ -1,6 +1,6 @@
 ---
 title: "CodeMash 2024 Recap"
-date: 2024-01-14T23:32:11-05:00
+date: 2024-01-14T23:00:00-05:00
 tags: [tech, conferences, codemash]
 ---
 
